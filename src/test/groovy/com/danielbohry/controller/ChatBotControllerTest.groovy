@@ -1,4 +1,4 @@
-package com.danielbohry.service
+package com.danielbohry.controller
 
 import org.springframework.context.ConfigurableApplicationContext
 import org.springframework.http.HttpStatus
@@ -8,7 +8,7 @@ import spock.lang.AutoCleanup
 import spock.lang.Shared
 import spock.lang.Specification
 
-class ChatBotServiceTest extends Specification {
+class ChatBotControllerTest extends Specification {
 
     @Shared
     @AutoCleanup
