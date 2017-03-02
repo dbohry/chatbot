@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component
 class ChatBotService {
 
     String answerme(String request) {
-        request
+        "Seriously have you asked me about " + request + "?"
     }
 
 }
