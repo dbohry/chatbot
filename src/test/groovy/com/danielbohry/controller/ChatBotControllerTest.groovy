@@ -43,7 +43,7 @@ class ChatBotControllerTest extends Specification {
 
         then: 'I get a greeting'
         entity.statusCode == HttpStatus.OK
-        entity.body == "Seriously have you asked me about " + msg + "?"
+        entity.body == "Seriously have you asked me " + msg + "?"
     }
 
 }
